@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seleção de Produto</title>
+  <style>
+    label {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Seleção de Produto</h1>
+
+  <form method="post" action="processar_compra.php">
+    <label>
+      <input type="radio" name="produto" value="produto1">
+      Produto 1
+    </label>
+    <label>
+      <input type="radio" name="produto" value="produto2">
+      Produto 2
+    </label>
+    <label>
+      <input type="radio" name="produto" value="produto3">
+      Produto 3
+    </label>
+
+    <button type="submit">Comprar</button>
+  </form>
+</body>
+</html>
